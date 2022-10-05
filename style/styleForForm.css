@@ -1,0 +1,49 @@
+.main{
+    margin-top: 40px;
+}
+.container{
+    /* border: 0.5px solid black; */
+    box-shadow: 0 0 20px black;
+}
+.head{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+label{
+    text-align: left;
+}
+span{
+    color: red;
+    margin-right: 3px;
+}
+.enterValue{
+    margin-top: 15px;
+}
+.enterValue:nth-child(5) textarea{
+    margin-top: 10px;
+}
+.enterbtn{
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+    background-color: rgb(255, 153, 0);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+.enterbtn:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 10px black;
+    transition: all 0.5s;
+}
+.enterbtn:active{
+    transform: scale(0.9);
+    transition: all 0.2s;
+}
